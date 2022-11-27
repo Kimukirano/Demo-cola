@@ -2,12 +2,12 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/tvdefeito.mp3-3765a7552d1376cf0e484e6e025ace33.mp3str"
+path="res://.import/tvdefeito.mp3-50839e54ca298e1b99bf6985d2880635.mp3str"
 
 [deps]
 
-source_file="res://tvdefeito.mp3"
-dest_files=[ "res://.import/tvdefeito.mp3-3765a7552d1376cf0e484e6e025ace33.mp3str" ]
+source_file="res://Colando/tvdefeito.mp3"
+dest_files=[ "res://.import/tvdefeito.mp3-50839e54ca298e1b99bf6985d2880635.mp3str" ]
 
 [params]
 

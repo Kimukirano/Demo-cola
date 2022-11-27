@@ -2,12 +2,12 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/gameover.mp3-19ecca3ef8d4bb1abd6e4d47e8d5ad29.mp3str"
+path="res://.import/gameover.mp3-dbb08573626a01e335895297d5e420c7.mp3str"
 
 [deps]
 
-source_file="res://gameover.mp3"
-dest_files=[ "res://.import/gameover.mp3-19ecca3ef8d4bb1abd6e4d47e8d5ad29.mp3str" ]
+source_file="res://Colando/gameover.mp3"
+dest_files=[ "res://.import/gameover.mp3-dbb08573626a01e335895297d5e420c7.mp3str" ]
 
 [params]
 

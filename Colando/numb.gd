@@ -19,7 +19,7 @@ func _ready():
 func _on_timer_timeout():
 	x-=1
 	if(x==0):
-		get_tree().change_scene("res://gover.tscn")
+		get_tree().change_scene("res://Colando/gover.tscn")
 
 	text = str(x)
 	pass # Replace with function body.

@@ -2,12 +2,12 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/pokemonmetal.mp3-78162cdc9410e9545de09baf154b8c5c.mp3str"
+path="res://.import/pokemonmetal.mp3-28998beb89a2a0b0c94e2e46791daa96.mp3str"
 
 [deps]
 
-source_file="res://pokemonmetal.mp3"
-dest_files=[ "res://.import/pokemonmetal.mp3-78162cdc9410e9545de09baf154b8c5c.mp3str" ]
+source_file="res://Colando/pokemonmetal.mp3"
+dest_files=[ "res://.import/pokemonmetal.mp3-28998beb89a2a0b0c94e2e46791daa96.mp3str" ]
 
 [params]
 

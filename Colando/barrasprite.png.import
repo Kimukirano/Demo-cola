@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/barrasprite.png-8264c94048e2f3f09052c5b4e5823ec6.stex"
+path="res://.import/barrasprite.png-f5420097289d8fbfb0985556ced99e8b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://barrasprite.png"
-dest_files=[ "res://.import/barrasprite.png-8264c94048e2f3f09052c5b4e5823ec6.stex" ]
+source_file="res://Colando/barrasprite.png"
+dest_files=[ "res://.import/barrasprite.png-f5420097289d8fbfb0985556ced99e8b.stex" ]
 
 [params]
 

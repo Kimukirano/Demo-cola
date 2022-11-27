@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/a.png-bb8a5c4a3aefa9bd4dda7c06f9f81f63.stex"
+path="res://.import/a.png-259cc1840b78b23b57ac588429e3b134.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://a.png"
-dest_files=[ "res://.import/a.png-bb8a5c4a3aefa9bd4dda7c06f9f81f63.stex" ]
+source_file="res://Colando/a.png"
+dest_files=[ "res://.import/a.png-259cc1840b78b23b57ac588429e3b134.stex" ]
 
 [params]
 

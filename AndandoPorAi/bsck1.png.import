@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bsck1.png-a6300ab3c5c39cbcc4cdc8cbbc0cdca1.stex"
+path="res://.import/bsck1.png-d19a8f4795571802235ae3081d477afc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://bsck1.png"
-dest_files=[ "res://.import/bsck1.png-a6300ab3c5c39cbcc4cdc8cbbc0cdca1.stex" ]
+source_file="res://AndandoPorAi/bsck1.png"
+dest_files=[ "res://.import/bsck1.png-d19a8f4795571802235ae3081d477afc.stex" ]
 
 [params]
 

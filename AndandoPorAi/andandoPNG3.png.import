@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/andandoPNG3.png-f4cfbb95be4e549f4fe0d22bfe2bc59f.stex"
+path="res://.import/andandoPNG3.png-27c4c6fffff67a10044decbce0fe1dba.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://andandoPNG3.png"
-dest_files=[ "res://.import/andandoPNG3.png-f4cfbb95be4e549f4fe0d22bfe2bc59f.stex" ]
+source_file="res://AndandoPorAi/andandoPNG3.png"
+dest_files=[ "res://.import/andandoPNG3.png-27c4c6fffff67a10044decbce0fe1dba.stex" ]
 
 [params]
 

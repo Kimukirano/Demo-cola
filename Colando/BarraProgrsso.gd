@@ -33,7 +33,7 @@ func _on_Button_pressed():
 	if(count==10):
 		count=0
 	if(value==max_value):
-		$Background.texture = ("res://resultaodspng.png")
+		$Background.texture = ("res://Colando/resultaodspng.png")
 		self.visible = false
 	if(respostas[count]==i):
 		acertos+=1
@@ -49,7 +49,7 @@ func _on_Button2_pressed():
 	if(count==10):
 		count=0
 	if(value==max_value):
-		get_tree().change_scene("res://Resultados.tscn")
+		get_tree().change_scene("res://Colando/Resultados.tscn")
 	if(respostas[count]==i):
 		acertos+=1
 	
@@ -65,7 +65,7 @@ func _on_Button3_pressed():
 	if(count==10):
 		count=0
 	if(value==max_value):
-		get_tree().change_scene("res://Resultados.tscn")
+		get_tree().change_scene("res://Colando/Resultados.tscn")
 	if(respostas[count]==i):
 		acertos+=1
 	
@@ -80,7 +80,7 @@ func _on_Button4_pressed():
 	if(count==10):
 		count=0
 	if(value==max_value):
-		get_tree().change_scene("res://Resultados.tscn")
+		get_tree().change_scene("res://Colando/Resultados.tscn")
 	if(respostas[count]==i):
 		acertos+=1
 	

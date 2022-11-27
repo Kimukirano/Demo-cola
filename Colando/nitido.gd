@@ -1,13 +1,13 @@
 extends TextureRect
 
 var estado = [
-	"res://gneutro.jpg",
+	"res://Colando/gneutro.jpg",
 	
-	"res://b.png",
-	"res://c.png",
-	"res://d.png",
-	"res://d.png",
-	"res://a.png"
+	"res://Colando/b.png",
+	"res://Colando/c.png",
+	"res://Colando/d.png",
+	"res://Colando/d.png",
+	"res://Colando/a.png"
 	
 ]
 var index = 5

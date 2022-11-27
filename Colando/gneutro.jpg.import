@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gneutro.jpg-2ff193435a1def29ca307315cdaedad0.stex"
+path="res://.import/gneutro.jpg-35b3c34190af41827ddee45e1acbe5f8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gneutro.jpg"
-dest_files=[ "res://.import/gneutro.jpg-2ff193435a1def29ca307315cdaedad0.stex" ]
+source_file="res://Colando/gneutro.jpg"
+dest_files=[ "res://.import/gneutro.jpg-35b3c34190af41827ddee45e1acbe5f8.stex" ]
 
 [params]
 

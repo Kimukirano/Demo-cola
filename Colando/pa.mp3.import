@@ -2,12 +2,12 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/pa.mp3-69aeaf194965874a5377bd79c1724cbb.mp3str"
+path="res://.import/pa.mp3-33a561f186f2031a2398c44d9fba3319.mp3str"
 
 [deps]
 
-source_file="res://pa.mp3"
-dest_files=[ "res://.import/pa.mp3-69aeaf194965874a5377bd79c1724cbb.mp3str" ]
+source_file="res://Colando/pa.mp3"
+dest_files=[ "res://.import/pa.mp3-33a561f186f2031a2398c44d9fba3319.mp3str" ]
 
 [params]
 

@@ -35,7 +35,7 @@ func _on_Button_pressed():
 	if(count==10):
 		count=0
 	if($BarraProgrsso.value==$BarraProgrsso.max_value):
-		$Background.texture = load("res://resultaodspng.png")
+		$Background.texture = load("res://Colando/resultaodspng.png")
 		$BarraProgrsso.visible = false
 		print(acertos)
 		$resultado_numb.text = "acertos: " + str(acertos)
@@ -53,7 +53,7 @@ func _on_Button2_pressed():
 	if(count==10):
 		count=0
 	if($BarraProgrsso.value==$BarraProgrsso.max_value):
-		$Background.texture = load("res://resultaodspng.png")
+		$Background.texture = load("res://Colando/resultaodspng.png")
 		$BarraProgrsso.visible = false
 		print(acertos)
 		$resultado_numb.text = "acertos: " + str(acertos)
@@ -71,7 +71,7 @@ func _on_Button3_pressed():
 	if(count==10):
 		count=0
 	if($BarraProgrsso.value==$BarraProgrsso.max_value):
-		$Background.texture = load("res://resultaodspng.png")
+		$Background.texture = load("res://Colando/resultaodspng.png")
 		$BarraProgrsso.visible = false
 		print(acertos)
 		$resultado_numb.text = "acertos: " + str(acertos)
@@ -89,7 +89,7 @@ func _on_Button4_pressed():
 	if(count==10):
 		count=0
 	if($BarraProgrsso.value==$BarraProgrsso.max_value):
-		$Background.texture = load("res://resultaodspng.png")
+		$Background.texture = load("res://Colando/resultaodspng.png")
 		$BarraProgrsso.visible = false
 		print(acertos)
 		$resultado_numb.text = "acertos: " + str(acertos)

@@ -1,9 +1,10 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://barraspspriprogreess.png" type="Texture" id=1]
-[ext_resource path="res://barraspritbackse.png" type="Texture" id=2]
-[ext_resource path="res://gabaritar.gd" type="Script" id=3]
-[ext_resource path="res://gabarits.png" type="Texture" id=4]
+[ext_resource path="res://Colando/barraspspriprogreess.png" type="Texture" id=1]
+[ext_resource path="res://Colando/barraspritbackse.png" type="Texture" id=2]
+[ext_resource path="res://Colando/gabaritar.gd" type="Script" id=3]
+[ext_resource path="res://Colando/gabarits.png" type="Texture" id=4]
+
 
 [node name="Gabaritar" type="Node2D"]
 script = ExtResource( 3 )

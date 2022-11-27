@@ -2,12 +2,12 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/alien.mp3-cb9d7f8f12d743146c1a03aaff6c7b58.mp3str"
+path="res://.import/alien.mp3-0cb46b043c35cc8c0a88f5bd3ef8b013.mp3str"
 
 [deps]
 
-source_file="res://alien.mp3"
-dest_files=[ "res://.import/alien.mp3-cb9d7f8f12d743146c1a03aaff6c7b58.mp3str" ]
+source_file="res://Colando/alien.mp3"
+dest_files=[ "res://.import/alien.mp3-0cb46b043c35cc8c0a88f5bd3ef8b013.mp3str" ]
 
 [params]
 

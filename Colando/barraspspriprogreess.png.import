@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/barraspspriprogreess.png-a6cbe5174e429e33d47d4f0723b3801b.stex"
+path="res://.import/barraspspriprogreess.png-6a7f170790668a7490f793533b0e5743.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://barraspspriprogreess.png"
-dest_files=[ "res://.import/barraspspriprogreess.png-a6cbe5174e429e33d47d4f0723b3801b.stex" ]
+source_file="res://Colando/barraspspriprogreess.png"
+dest_files=[ "res://.import/barraspspriprogreess.png-6a7f170790668a7490f793533b0e5743.stex" ]
 
 [params]
 

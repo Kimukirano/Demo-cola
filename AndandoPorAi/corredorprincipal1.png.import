@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/corredorprincipal1.png-5d7c49edf5f9487135b7602995d463db.stex"
+path="res://.import/corredorprincipal1.png-c59354ef25599fe0497e21dad9f1156a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://corredorprincipal1.png"
-dest_files=[ "res://.import/corredorprincipal1.png-5d7c49edf5f9487135b7602995d463db.stex" ]
+source_file="res://AndandoPorAi/corredorprincipal1.png"
+dest_files=[ "res://.import/corredorprincipal1.png-c59354ef25599fe0497e21dad9f1156a.stex" ]
 
 [params]
 

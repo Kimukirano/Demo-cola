@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gb.jpg-221eb75135eab194ec357f60b6823cf8.stex"
+path="res://.import/gb.jpg-33d404604fdee8fc1ee28abf82ef58ff.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gb.jpg"
-dest_files=[ "res://.import/gb.jpg-221eb75135eab194ec357f60b6823cf8.stex" ]
+source_file="res://Colando/gb.jpg"
+dest_files=[ "res://.import/gb.jpg-33d404604fdee8fc1ee28abf82ef58ff.stex" ]
 
 [params]
 

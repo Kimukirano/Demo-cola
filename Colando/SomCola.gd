@@ -2,7 +2,7 @@ extends AudioStreamPlayer
 
 
 var sons = [
-	[preload("res://alien.mp3")],
+	[preload("res://Colando/alien.mp3")],
 ]
 
 

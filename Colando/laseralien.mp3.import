@@ -2,12 +2,12 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/laseralien.mp3-61142cfb802fade4d64201e973061e2c.mp3str"
+path="res://.import/laseralien.mp3-40da9c0293c6ebb99f4053ae8559adca.mp3str"
 
 [deps]
 
-source_file="res://laseralien.mp3"
-dest_files=[ "res://.import/laseralien.mp3-61142cfb802fade4d64201e973061e2c.mp3str" ]
+source_file="res://Colando/laseralien.mp3"
+dest_files=[ "res://.import/laseralien.mp3-40da9c0293c6ebb99f4053ae8559adca.mp3str" ]
 
 [params]
 

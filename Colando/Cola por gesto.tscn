@@ -1,7 +1,8 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://TextureRect.gd" type="Script" id=1]
-[ext_resource path="res://gneutro.jpg" type="Texture" id=2]
+[ext_resource path="res://Colando/TextureRect.gd" type="Script" id=1]
+[ext_resource path="res://Colando/gneutro.jpg" type="Texture" id=2]
+
 
 [node name="Cola por gesto" type="Node2D"]
 __meta__ = {
