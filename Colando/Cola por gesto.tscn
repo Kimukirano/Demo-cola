@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://TextureRect.gd" type="Script" id=1]
+[ext_resource path="res://gneutro.jpg" type="Texture" id=2]
+
+[node name="Cola por gesto" type="Node2D"]
+__meta__ = {
+"_editor_description_": "ficar trocando os sprites do rect texture para os gestos de cola em uma ordem x predefinitda"
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 194.0
+margin_bottom = 147.0
+texture = ExtResource( 2 )
+expand = true
+script = ExtResource( 1 )
+
+[node name="Timer4seg" type="Timer" parent="TextureRect"]
+wait_time = 3.0
+autostart = true
+
+[node name="Timer1seg" type="Timer" parent="TextureRect"]
+
+[connection signal="timeout" from="TextureRect/Timer4seg" to="TextureRect" method="_on_Timer_timeout"]
+[connection signal="timeout" from="TextureRect/Timer1seg" to="TextureRect" method="_on_Timer1seg_timeout"]

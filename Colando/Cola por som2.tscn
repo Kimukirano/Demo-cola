@@ -1,0 +1,32 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://papapa.mp3" type="AudioStream" id=1]
+[ext_resource path="res://Cola por som2.gd" type="Script" id=2]
+[ext_resource path="res://pa.mp3" type="AudioStream" id=3]
+[ext_resource path="res://papapapa.mp3" type="AudioStream" id=4]
+[ext_resource path="res://papa.mp3" type="AudioStream" id=5]
+
+[node name="Cola por som2" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="timer3seg" type="Timer" parent="."]
+wait_time = 3.25
+
+[node name="timer2seg" type="Timer" parent="."]
+wait_time = 3.0
+autostart = true
+
+[node name="somA" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+
+[node name="somB" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+
+[node name="somC" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+
+[node name="somD" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+
+[connection signal="timeout" from="timer3seg" to="." method="_on_timer3seg_timeout"]
+[connection signal="timeout" from="timer2seg" to="." method="_on_timer5seg_timeout"]

@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://SomCola.gd" type="Script" id=1]
+
+[node name="Cola por som" type="Node2D"]
+
+[node name="SomCola" type="AudioStreamPlayer" parent="."]
+volume_db = 20.0
+script = ExtResource( 1 )
+
+[node name="timer5seg" type="Timer" parent="SomCola"]
+
+[connection signal="timeout" from="SomCola/timer5seg" to="SomCola" method="_on_timer5seg_timeout"]

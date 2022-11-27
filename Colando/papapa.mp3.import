@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/papapa.mp3-2e34842088c67f79f9290125dac789ad.mp3str"
+
+[deps]
+
+source_file="res://papapa.mp3"
+dest_files=[ "res://.import/papapa.mp3-2e34842088c67f79f9290125dac789ad.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

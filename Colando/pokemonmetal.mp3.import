@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pokemonmetal.mp3-78162cdc9410e9545de09baf154b8c5c.mp3str"
+
+[deps]
+
+source_file="res://pokemonmetal.mp3"
+dest_files=[ "res://.import/pokemonmetal.mp3-78162cdc9410e9545de09baf154b8c5c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

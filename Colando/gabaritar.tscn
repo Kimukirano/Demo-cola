@@ -1,0 +1,70 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://barraspspriprogreess.png" type="Texture" id=1]
+[ext_resource path="res://barraspritbackse.png" type="Texture" id=2]
+[ext_resource path="res://gabaritar.gd" type="Script" id=3]
+[ext_resource path="res://gabarits.png" type="Texture" id=4]
+
+[node name="Gabaritar" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Background" type="TextureRect" parent="."]
+margin_right = 1027.0
+margin_bottom = 599.0
+texture = ExtResource( 4 )
+expand = true
+
+[node name="BarraProgrsso" type="TextureProgress" parent="."]
+margin_left = 404.0
+margin_top = 20.0
+margin_right = 694.0
+margin_bottom = 84.0
+max_value = 180.0
+texture_under = ExtResource( 2 )
+texture_progress = ExtResource( 1 )
+nine_patch_stretch = true
+
+[node name="Button" type="Button" parent="BarraProgrsso"]
+margin_left = -343.0
+margin_top = 481.0
+margin_right = -211.0
+margin_bottom = 579.0
+text = "A"
+
+[node name="Button2" type="Button" parent="BarraProgrsso"]
+margin_left = -94.0
+margin_top = 482.0
+margin_right = 38.0
+margin_bottom = 580.0
+text = "B"
+
+[node name="Button3" type="Button" parent="BarraProgrsso"]
+margin_left = 157.0
+margin_top = 482.0
+margin_right = 289.0
+margin_bottom = 580.0
+text = "C"
+
+[node name="Button4" type="Button" parent="BarraProgrsso"]
+margin_left = 428.0
+margin_top = 481.0
+margin_right = 560.0
+margin_bottom = 579.0
+text = "D"
+
+[node name="resultado_numb" type="Label" parent="."]
+margin_left = 479.0
+margin_top = 274.0
+margin_right = 729.0
+margin_bottom = 425.0
+custom_colors/font_color = Color( 0.0588235, 0.0431373, 0.0431373, 1 )
+custom_colors/font_outline_modulate = Color( 0.0470588, 0.027451, 0.027451, 1 )
+
+[connection signal="pressed" from="BarraProgrsso/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="BarraProgrsso/Button" to="BarraProgrsso" method="_on_Button_pressed"]
+[connection signal="pressed" from="BarraProgrsso/Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="BarraProgrsso/Button2" to="BarraProgrsso" method="_on_Button2_pressed"]
+[connection signal="pressed" from="BarraProgrsso/Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="BarraProgrsso/Button3" to="BarraProgrsso" method="_on_Button3_pressed"]
+[connection signal="pressed" from="BarraProgrsso/Button4" to="." method="_on_Button4_pressed"]
+[connection signal="pressed" from="BarraProgrsso/Button4" to="BarraProgrsso" method="_on_Button4_pressed"]
