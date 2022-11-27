@@ -1,0 +1,104 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://corredorprincipal1.png" type="Texture" id=1]
+[ext_resource path="res://andandoPNG1.png" type="Texture" id=2]
+[ext_resource path="res://andandoPNG2.png" type="Texture" id=3]
+[ext_resource path="res://andandoPNG3.png" type="Texture" id=4]
+[ext_resource path="res://Player.gd" type="Script" id=5]
+[ext_resource path="res://bsck2.png" type="Texture" id=6]
+[ext_resource path="res://bsck1.png" type="Texture" id=7]
+[ext_resource path="res://bsck3.png" type="Texture" id=8]
+[ext_resource path="res://yt5s.io - SDR2 OST_ -1-05- Beautiful Ruin [Summer Salt] (128 kbps).mp3" type="AudioStream" id=9]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 50, 55 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 4 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "direita",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 7 ), ExtResource( 6 ), ExtResource( 8 ) ],
+"loop": true,
+"name": "esquerda",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ) ],
+"loop": true,
+"name": "parado",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 17, 311.5 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 18.5, 302.5 )
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 1358.5, 16.5 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 1086.25, 190.5 )
+
+[node name="CorredorPrincipal" type="Node2D"]
+
+[node name="Corredorparal1" type="Sprite" parent="."]
+position = Vector2( 1368.63, 300 )
+scale = Vector2( 3.84375, 4.6875 )
+texture = ExtResource( 1 )
+
+[node name="Player" type="KinematicBody2D" parent="."]
+position = Vector2( 99, 260 )
+script = ExtResource( 5 )
+
+[node name="Hitbox" type="CollisionShape2D" parent="Player"]
+position = Vector2( 579, 215 )
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Player"]
+position = Vector2( 574, 149 )
+scale = Vector2( 2.14063, 2.07031 )
+frames = SubResource( 2 )
+animation = "direita"
+playing = true
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2( 572, 39 )
+current = true
+limit_left = -15000000
+smoothing_enabled = true
+
+[node name="ParedeLado1" type="StaticBody2D" parent="."]
+position = Vector2( 119, 43 )
+
+[node name="Hitbox" type="CollisionShape2D" parent="ParedeLado1"]
+position = Vector2( -105, 266 )
+shape = SubResource( 4 )
+
+[node name="ParedeLado2" type="StaticBody2D" parent="."]
+position = Vector2( 133, -14 )
+
+[node name="Hitbox" type="CollisionShape2D" parent="ParedeLado2"]
+position = Vector2( 2589, 302 )
+shape = SubResource( 5 )
+
+[node name="ParedeBaixo" type="StaticBody2D" parent="."]
+position = Vector2( 136, 350 )
+
+[node name="Hitbox" type="CollisionShape2D" parent="ParedeBaixo"]
+position = Vector2( 1219, 234 )
+shape = SubResource( 6 )
+
+[node name="ParedeFrente" type="StaticBody2D" parent="."]
+position = Vector2( 107, 21 )
+
+[node name="Hitbox" type="CollisionShape2D" parent="ParedeFrente"]
+position = Vector2( 1283, 168 )
+shape = SubResource( 3 )
+
+[node name="musiquitarlxDG2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 9 )
+autoplay = true
